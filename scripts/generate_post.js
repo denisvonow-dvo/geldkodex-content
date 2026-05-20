@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * @ruhekodex Post Generator
+ * @geldkodex Post Generator
  * Generiert PNG-Slides (schwarz/weiß) und postet via Blotato auf TikTok + Instagram
  */
 
@@ -12,8 +12,8 @@ const axios = require('axios');
 // === CONFIG ===
 const BLOTATO_API_KEY = process.env.BLOTATO_API_KEY || 'blt_579IiEiE/J3SDtGSjscu4ZJnSJNUxd3vS3HtXyqzG0U=';
 const BLOTATO_MCP_URL = 'https://mcp.blotato.com/mcp';
-const TIKTOK_ACCOUNT_ID = '41347';
-const INSTAGRAM_ACCOUNT_ID = '45672';
+const TIKTOK_ACCOUNT_ID = '43178';
+const INSTAGRAM_ACCOUNT_ID = '48263';
 
 const REPO_DIR = path.resolve(__dirname, '..');
 const READY_DIR = path.join(REPO_DIR, 'ready-to-post');
